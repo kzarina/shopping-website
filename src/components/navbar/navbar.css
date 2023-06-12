@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 2rem 1rem;
+}
+
+.navbar__logo a {
+  font-size: 32px;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu p {
+  margin-left: 2rem;
+}
+
+.navbar__menu p:first-child {
+  color: red;
+}
+
+.navbar__actions {
+  display: flex;
+}
+
+.navbar__actions div {
+  margin-right: 1rem;
+}
+.navbar__actions div:last-child {
+  margin-right: 0;
+}
+
+input {
+  padding: 0.2rem;
+}

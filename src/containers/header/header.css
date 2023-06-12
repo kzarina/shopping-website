@@ -1,0 +1,13 @@
+.header__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.header__content-div img {
+  max-width: 550px;
+}
+
+.header__content-div p {
+  text-align: center;
+}
